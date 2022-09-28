@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Scroll from './Scroll';
 import SearchList from './SearchList';
 
+
 function Search({ details }) {
 
   const [searchField, setSearchField] = useState("");
@@ -17,6 +18,10 @@ function Search({ details }) {
         .includes(searchField.toLowerCase()) ||
         person
         .email
+        .toLowerCase()
+        .includes(searchField.toLowerCase()) ||
+        person
+        .interest
         .toLowerCase()
         .includes(searchField.toLowerCase())
       );

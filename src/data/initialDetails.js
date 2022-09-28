@@ -1,3 +1,4 @@
+
 const initialDetails = [
     {
       id: 1,
@@ -5,7 +6,8 @@ const initialDetails = [
       name: "Jane Doe",
       email: "janedoe@gmail.com",
       address: "New Delhi, India",
-      interest: "Tennsi",
+      interest: "Tennis",
+      
     },
     {
       id: 2,
@@ -13,6 +15,7 @@ const initialDetails = [
       name: "Mary Rosamund",
       email: "agra@rosie.com",
       address: "Tbilisi, India",
+      interest: "Soccer",
     },
     {
       id: 3,
@@ -20,6 +23,7 @@ const initialDetails = [
       name: "Sherlock Watson",
       email: "irene@johnlock.com",
       address: "Baker Street, India",
+      interest: "Basketball",
     },
     {
       id: 4,
@@ -27,6 +31,7 @@ const initialDetails = [
       name: "John Holmes",
       email: "mary@johnlock.com",
       address: "Baker Street, India",
+      interest: "Football",
     },
     {
       id: 5,
@@ -34,7 +39,9 @@ const initialDetails = [
       name: "Mycroft Lestrade",
       email: "britishgovt@gmail.com",
       address: "London, India",
+      interest: "Squash",
     },
   ];
+  
   
   export default initialDetails;
