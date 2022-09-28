@@ -8,7 +8,12 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import WebImage from '../componenet/WebImage';
 
 
-const theme = createTheme();
+const theme = createTheme({palette:
+    {
+        primary:{main:"#008000"},
+        // secondary:{main:"yellow"}
+    },
+});
 
 export default function Register() {
   const handleSubmit = (event) => {
